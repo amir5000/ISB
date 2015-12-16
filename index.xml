@@ -968,12 +968,21 @@ body {
     background: #0d663a none repeat scroll 0 0 !important;
   }
 
+#nav  ul li a:hover {
+    background: #0d663a none repeat scroll 0 0 !important;
+    border-radius: 0 !important;
+}
+
 #search {
 	background-color: #0d663a;
   }
 
 #search #s {
 	color: #FFF;
+  }
+
+.readmore a:hover {
+    background: #0d663a none repeat scroll 0 0 !important;
   }
 
 #footer-widgets .widget.Label li {
@@ -1078,7 +1087,7 @@ $(this).attr(&#39;target&#39;, &#39;_blank&#39;);
     <div id='header-inner'>
       <div class='titlewrapper'>
         <h1 class='title'>
-			<a class="isb-logo" href='http://isbcambridge.blogspot.com/'><img src='https://lh3.googleusercontent.com/-yF6ZsdMa6Po/VkU70iBxA_I/AAAAAAAAAHU/ozhyU9_mQR0/h240/ISB-logo.png' /></a>
+			<a class='isb-logo' href='http://isbcambridge.blogspot.com/'><img src='https://lh3.googleusercontent.com/-yF6ZsdMa6Po/VkU70iBxA_I/AAAAAAAAAHU/ozhyU9_mQR0/h240/ISB-logo.png'/></a>
         </h1>
       </div>
       <b:include name='description'/>
